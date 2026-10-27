@@ -54,5 +54,7 @@ curl -X POST http://localhost:8888/api/select \
 ***
 ### blog
 
+https://zenn.dev/knaka0209/scraps/e703f4a3849834
+
 
 ***
