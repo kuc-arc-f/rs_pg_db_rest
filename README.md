@@ -52,6 +52,20 @@ curl -X POST http://localhost:8888/api/select \
 ```
 
 ***
+* signup
+```
+curl -X POST http://localhost:8888/api/signup \
+  -H "Content-Type: application/json" \
+  -d '{"email": "you@example.com", "password": "1111"}'
+```
+
+* login
+```
+curl -X POST http://localhost:8888/api/login \
+  -H "Content-Type: application/json" \
+  -d '{"email": "you@example.com", "password": "1111"}'
+```
+***
 ### blog
 
 https://zenn.dev/knaka0209/scraps/e703f4a3849834
